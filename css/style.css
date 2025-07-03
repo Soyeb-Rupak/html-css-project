@@ -76,3 +76,21 @@ background-color: var(--primary-color);
 color: white;
 
 }
+/* ....Nav ends here.....  */
+
+/* hero section styling...... */
+.hero-section{
+background-color: var(--background-color);
+padding: 15px;
+}
+.container{
+
+}
+.hero-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+/* height: 100vh; */
+/* gap: 2rem; */
+}
+
