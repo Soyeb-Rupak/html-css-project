@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+:root {
+	--primary-color: #000d83;
+	--secondary-color: #0bb4ff;
+	--primary-text-color: #040931;
+	--background-color: #e7efff;
+	--heading-font-size: 2.5rem;
+	--sub-heading-font-size: 1.125rem;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	width: 100%;
+	overflow-x: hidden;
+}
+/* ---nav Starts here -- */
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--background-color);
+	color: var(--primary-text-color);
+	font-size: 1rem;
+	padding: 15px;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
+nav > * {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+nav ul {
+	display: flex;
+	gap: 20px;
+}
+
+nav ul li {
+	padding: 0 10px;
+}
+nav ul li a {
+	color: var(--primary-text-color);
+}
+nav ul li a:hover {
+	color: var(--secondary-color);
+}
+.menu-btn a{
+padding: 0 10px;
+}
+.menu-btn a:hover{
+color: var(--secondary-color);
+}
+
+.menu-btn .signup-btn{
+margin-left: 10px;
+border: 1px solid var(--primary-color);
+border-radius: 8px;
+padding: 5px 10px;
+transition: background-color 0.9s ease-in-out, color 0.9s ease;
+}
+
+.menu-btn .signup-btn:hover{
+background-color: var(--primary-color);
+color: white;
+
+}
