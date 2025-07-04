@@ -41,11 +41,11 @@ position: sticky;
 	top: 0;
 	z-index: 1000;
 }
-/* nav >* {
+nav >* {
 	max-width: 1440px;
 	margin: 0 auto;
 	padding: 10px;
-} */
+} 
 
 nav ul {
 	display: flex;
@@ -211,10 +211,10 @@ align-items: center;
 }
 
 .about-image{
-width:50%;
+width:60%;
 }
 .about-description{
-width: 50%;
+width: 40%;
 
 }
 .content-group{
@@ -272,6 +272,19 @@ transform: scale(1.1);
 
 }
 
-nav{
-position: sticky;
-top: 0;}
+.reputed-school .container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap:2rem;
+}
+
+
+.reputed-school .container .reputed-school-description{
+width: 40%;
+margin: 0 auto;
+}
+
+.reputed-school .container .reputed-school-image{
+width: 60%;
+}
