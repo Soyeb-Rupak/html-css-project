@@ -32,7 +32,7 @@ body {
 color: var(--primary-color);
 font-size: 2.5rem;
 }
-.normal-btn{
+.normal-btn, .btn{
 background-color: var(--primary-color);
 padding:10px 20px ;
 border-radius: 8px;
@@ -298,4 +298,81 @@ align-items: center;
 .star{
 color: rgb(241, 132, 7);
 font-size: x-large;
+}
+
+/* newsletter Section ------------- */
+
+.btn{
+background-color: var(--secondary-color);
+}
+.newsletter .container{
+margin-top: 100px;
+background-image: url(../images/news-letter.png);
+background-repeat: no-repeat;
+/* background-position: cover; */
+background-size: cover;
+background-position: center;
+height: 400px;
+position: relative;
+    border-radius: 15px;
+}
+.newsletter .container .overlay{
+background-color: #000d83d7;
+
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+height: 400px;
+display: flex;
+align-items: center;
+justify-content: center;
+    border-radius: 15px;
+ 
+}
+
+.newsletter .container .overlay .content {
+text-align: center;
+color: white;
+border-radius: 12px;
+}
+
+.newsletter .container .overlay .content p{
+width: 100%;
+margin-bottom: 40px;
+margin-top: 40px;
+}
+
+/* ....footer.........  */
+
+footer{
+background-color: var(--background-color);
+margin-top: 100px;
+}
+.footer-group{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 2.5rem .5rem;
+}
+.footer-logo {
+width: 20%;
+}
+.footer-logo>*{
+margin-bottom: 40px;
+}
+.footer-logo .social-icon{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.social-icon .icon{
+padding: 13px;
+background-color:var(--primary-color);
+}
+
+.social-icon .icon:hover{
+transform: translateY(.2rem);
 }
