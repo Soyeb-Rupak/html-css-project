@@ -1,0 +1,65 @@
+.hidden {
+	display: none;
+}
+
+@media (max-width: 480px) {
+	.menu,
+	.sign-in-up {
+		display: none;
+	}
+	body {
+		box-sizing: border-box;
+	}
+	html,
+	body {
+		overflow-x: hidden;
+	}
+	.container {
+		margin: 0 auto;
+		padding: 20px 0px;
+	}
+
+header>*{
+padding: 0;
+}
+ nav>*{
+padding: 0;
+overflow-x: hidden;
+}
+  nav {
+
+    height: auto;
+    gap: 10px;
+    padding: 10px 20px;
+  }
+  .log{
+  
+  }
+	/* .hero-section .sub-heading{
+width: 100%; 
+font-size:1rem;
+font-weight: 400;
+}
+
+.hero-section .container{
+padding: 20px 0px;
+}
+.hero-section .content{
+width: 100%;
+padding: 20px 50px;
+}
+.banner{
+flex-direction: column;
+}
+.banner-img{
+width: 100%;
+padding: 40px;
+}
+.banner-img img{
+width: 80%;
+}
+.hero-section  h1{
+width: 100%;
+font-size:1.5rem
+} */
+}

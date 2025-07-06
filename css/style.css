@@ -11,6 +11,10 @@
 body {
 	font-family: "Open Sans", sans-serif;
 }
+html, body {
+  overflow-x: hidden;
+}
+
 
 :root {
 	--primary-color: #000d83;
@@ -27,6 +31,7 @@ body {
 	max-width: 1440px;
 	margin: 0 auto;
 	padding: 20px 100px;
+    box-sizing: border-box;
 }
 .heading{
 color: var(--primary-color);
